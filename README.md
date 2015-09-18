@@ -1,5 +1,7 @@
 # bindable-component
 
+![https://travis-ci.org/swhite24/bindable-component.svg?branch=master](https://travis-ci.org/swhite24/bindable-component.svg?branch=master)
+
 Exposes `BindableComponent` to easily bind component methods for use as handlers within react.
 
 Also provides `BaseComponent`, with the only difference being the inclusion of the `PureRenderMixin`.
