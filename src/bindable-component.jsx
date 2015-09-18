@@ -22,7 +22,6 @@ export class BindableComponent extends React.Component {
 
 }
 
-
 /**
  * Extension of React.Component to provide _bind with PureRenderMixin method.
  */
