@@ -39,7 +39,7 @@ class MyComponent extends BindableComponent {
     return (
       <form>
         <input onChange={this.onChange} />
-        <button onClick={this.onClick}}>submit</button>
+        <button onClick={this.onClick}>submit</button>
       </form>
     );
   }
