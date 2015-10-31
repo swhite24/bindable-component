@@ -3,7 +3,8 @@
  * Base react component class
  */
 
-import React from 'react/addons';
+import React from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 import ReactMixin from 'react-mixin';
 
 /**
@@ -25,5 +26,5 @@ export class BindableComponent extends React.Component {
 /**
  * Extension of React.Component to provide _bind with PureRenderMixin method.
  */
-@ReactMixin.decorate(React.addons.PureRenderMixin)
+@ReactMixin.decorate(PureRenderMixin)
 export class BaseComponent extends BindableComponent {}
