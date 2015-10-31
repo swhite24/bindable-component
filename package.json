@@ -1,6 +1,6 @@
 {
   "name": "bindable-component",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Expose extendable react component for binding handlers",
   "main": "./dist/bindable-component.js",
   "scripts": {
